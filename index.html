@@ -19,6 +19,7 @@
   margin: 0;
 
 }
+
 .test {
   
   background: white;
@@ -91,20 +92,16 @@
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
-.bgimg-1{
-  position: relative;
-  opacity: 0.65;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 
-}
 .bgimg-1 {
   background-image: url("SET.jpeg");
   min-height: 100%;
-  background-position: center;
-  background-size: cover;
+   position: relative;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  opacity: 0.65;
 }
 .overlay {
   height: 100%;
@@ -155,7 +152,11 @@
 
   }
 }
-
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    }
 
 .text {
   background-color: white;
@@ -308,14 +309,7 @@ li a:hover {
   color: black;
   transform: rotateY(180deg);
 }
-span.messege {
-	
-  top: 0;
-  background-color: black;
-  color: white;
-  padding: 50px;
-  font-size: 20px;
-}
+
 figcaption {
   padding: 0.5em;
   overflow: hidden;
@@ -523,8 +517,8 @@ margin-bottom: -40px;
     </div>
     
      <div class="col-sm-8">
-       <span class="messege" style="font-size:1vw;">Dean, School of Engineering and Technology</span>
-	     <p style="font-size: 1vw;"><br><br>He is member Executive Council of IEEE UP section (R-10), member Executive Committee IEEE Computer and Signal Processing Society, member Exec. India council Computer Society, member Executive Council Computer Society of India, Noida section and has acted as an observer in many IEEE conferences. He is also having active memberships of ACM, IEEE, CSI, ACEEE, ISOC, IAENG, and IASCIT. He is life time member of Soft Computing Research Society (SCRS) and ISTE.
+       <span  style="font-size:1vw; background-color: black; padding: 5px; color: white;">Dean, School of Engineering and Technology</span>
+	     <p style="font-size: 1vw;">He is member Executive Council of IEEE UP section (R-10), member Executive Committee IEEE Computer and Signal Processing Society, member Exec. India council Computer Society, member Executive Council Computer Society of India, Noida section and has acted as an observer in many IEEE conferences. He is also having active memberships of ACM, IEEE, CSI, ACEEE, ISOC, IAENG, and IASCIT. He is life time member of Soft Computing Research Society (SCRS) and ISTE.
 
 He has delivered many invited/key notes talks at International & National Conferences/ Workshops/Seminars in India & abroad. He has published more than 50 papers in peer reviewed international/national journals and conferences. He has also published number of book chapters in reputed publications like Springer Berlin Heidelberg. He has reviewed no. of books for publications like Tata McGraw-Hill, Galgotias Publications etc. and papers in journals of international repute.  He is an active member of advisory/technical program committee of reputed International/National conferences & reviewer of number of reputed Journals e.g. Springer, Elsevier Journal Computers & Electrical Engineering. His research interest includes Computer Graphics, Algorithm, Distributed Computing and Wireless and Sensor networking. He has successfully completed number of government funded projects. He has spearheaded Ist IEEE International Conference on Computing, Communication & Automation, May 15-16, 2015 at Galgotias University (www.iccca2015.com), 2nd IEEE International Conference on Computing, Communication & Automation, April 29-30, 2016 at Galgotias University (www.iccca2016.com), 3rd IEEE International Conference on Computing, Communication & Automation, May 5-6, 2017 at Galgotias University (www.iccca.in).
 <a href="https://www.sharda.ac.in/faculty/details/parma-nand">Read More..</a></p>
@@ -597,11 +591,12 @@ He has delivered many invited/key notes talks at International & National Confer
 </div>
 
 </div>
-<div class="row">
-    <div class="col-sm-4">
 
-      <h1 style="text-align: center; font-family: 'Tangerine', serif; ">Sharda University Location Map </h1>
-     <div>
+  <h1 style="text-align: center; font-family: 'Tangerine', serif; ">Sharda University Location Map </h1>
+<div class="row">
+
+    <div class="col-sm-4">
+     <div class="map-responsive">
        <div class="mapouter">
         <div class="gmap_canvas">
           <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=sharda%20university&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com/nordvpn-coupon/">nordvpn discounts</a>
@@ -612,11 +607,11 @@ He has delivered many invited/key notes talks at International & National Confer
      </div>
 
    </div>
-   <div class="col-sm-4">
-   </div>
-      <div class="col-sm-4">
+   
+   <div class="col-sm-8"> 
+    <center><div class="loader">THE.WORLD.IS.HERE</br>WHERE.ARE.YOU.</div>
 
-   <div class="loader">THE.WORLD.IS.HERE</br>WHERE.ARE.YOU.</div>
+  
    <h3 id="contact">Contact Us</h3>
    <i class="fa fa-phone" aria-hidden="true">+91-120-4570000, 
 +91-120-4060210, 
@@ -649,16 +644,11 @@ function openNav() {
 function closeNav() {
   document.getElementById("programme").style.display = "none";
 }
-</script> 
-  
+</script>
+</center>  
 </div>
 </div>
 </div>
-
-
-
-
-</br></br>
 <div id="about">
   <h1 style="text-align: center;">School of Engineering and Technology</h1>
   <p style="color: black;text-align: center;font-weight: 40px;opacity: 1;">The School of Engineering and technology (SET) is an open platform for diverse voices where teaching runs parallel to the real world and students are groomed to join the global workforce. SET is distinguished as one of the top-ranked engineering schools in India. The students at SET benefit through the professional grooming of renowned faculty and industry experts having experience of tackling pressing engineering problems. Students discover their passion in one of the various offered Engineering majors at the School of Engineering and technology. 
